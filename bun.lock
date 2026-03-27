@@ -9,7 +9,7 @@
       },
     },
     "apps/backend": {
-      "name": "@marketing-app/backend",
+      "name": "encore-ts-starter",
       "version": "0.0.1",
       "dependencies": {
         "encore.dev": "^1.56.2",
@@ -21,8 +21,6 @@
     },
   },
   "packages": {
-    "@marketing-app/backend": ["@marketing-app/backend@workspace:apps/backend"],
-
     "@turbo/darwin-64": ["@turbo/darwin-64@2.8.20", "", { "os": "darwin", "cpu": "x64" }, "sha512-FQ9EX1xMU5nbwjxXxM3yU88AQQ6Sqc6S44exPRroMcx9XZHqqppl5ymJF0Ig/z3nvQNwDmz1Gsnvxubo+nXWjQ=="],
 
     "@turbo/darwin-arm64": ["@turbo/darwin-arm64@2.8.20", "", { "os": "darwin", "cpu": "arm64" }, "sha512-Gpyh9ATFGThD6/s9L95YWY54cizg/VRWl2B67h0yofG8BpHf67DFAh9nuJVKG7bY0+SBJDAo5cMur+wOl9YOYw=="],
@@ -36,6 +34,8 @@
     "@turbo/windows-arm64": ["@turbo/windows-arm64@2.8.20", "", { "os": "win32", "cpu": "arm64" }, "sha512-voicVULvUV5yaGXo0Iue13BcHGYW3u0VgqSbfQwBaHbpj1zLjYV4KIe+7fYIo6DO8FVUJzxFps3ODCQG/Wy2Qw=="],
 
     "@types/node": ["@types/node@20.19.37", "", { "dependencies": { "undici-types": "~6.21.0" } }, "sha512-8kzdPJ3FsNsVIurqBs7oodNnCEVbni9yUEkaHbgptDACOPW04jimGagZ51E6+lXUwJjgnBw+hyko/lkFWCldqw=="],
+
+    "encore-ts-starter": ["encore-ts-starter@workspace:apps/backend"],
 
     "encore.dev": ["encore.dev@1.56.2", "", {}, "sha512-+w6tnPqCpPhlMGZyBj0vUpJbTdlqCacoQh9dVYQPEyLyOmG5rwTDpWmwS0rFo/yQ1JtBWggi7rm0dbuI1Is63w=="],
 
